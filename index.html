@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/918087909478" class="whatsapp" target="_blank">💬</a>
+
+<body>
+    <div id="loader">
+    <div class="spinner"></div>
+</div>
+
+
+<header class="navbar">
+    <div class="nav-container">
+
+        <!-- Logo -->
+        <a href="#hero" class="logo">
+    <img src="images/logo.png.png" alt="SP Infotech Logo">
+</a>
+
+
+        <!-- Hamburger -->
+        <div class="hamburger" id="hamburger">☰</div>
+
+        <!-- Menu -->
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+
+        
+
+
+<section class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h1>Welcome to <span>SP Infotech</span></h1>
+        <p>
+            We create modern, responsive, and scalable websites that help
+            businesses grow online.
+        </p>
+        
+    </div>
+</section>
+
+
+<!-- Team -->
+<section id="team" class="section gray">
+    <h2>Meet the Founders</h2>
+
+    <div class="cards">
+        <div class="card team-card">
+            <img src="images/sakshi.png.png" alt="Sakshi Sonavane">
+            <h3>Sakshi Sonavane</h3>
+            <p><strong>Co-Founder & CEO</strong></p>
+            <p>Business strategy, client communication, project management.</p>
+        </div>
+
+        <div class="card team-card">
+            <img src="images/priya.png" alt="Priya Patil">
+            <h3>Priya Patil</h3>
+            <p><strong>Co-Founder & Technical Lead</strong></p>
+            <p>Development, design, and technical architecture.</p>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+        We are a passionate team focused on creating simple, effective solutions that help businesses grow.<br> 
+        With a client-first mindset and transparent working style, we believe success comes from trust, not just technology.
+    </p>
+</section>
+
+<!-- Services -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <img src="images/webdevelopment.png" alt="Web Development">
+            <h3>Web Development</h3>
+            <p>
+                We design and develop responsive, fast, and secure websites using
+                modern technologies.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/Appdevelopment.png" alt="App Development">
+            <h3>App Development</h3>
+            <p>
+                We build user-friendly Android and web applications with clean UI
+                and strong backend integration.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/uiux.png" alt="UI UX Design">
+            <h3>UI / UX Design</h3>
+            <p>
+                We create visually appealing and easy-to-use designs focused on
+                excellent user experience.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/seo.png" alt="SEO Services">
+            <h3>SEO Services</h3>
+            <p>
+                We improve search rankings and website traffic through smart and
+                effective SEO strategies.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Projects -->
+<section id="projects" class="projects-section">
+    <h2>Our Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <img src="images/project1.png" alt="Project One">
+            <h3>pre-school Enrollment System</h3>
+            <p>
+                Pre-School Enrollment System to automate student admissions.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <img src="images/project2.png.webp" alt="Project Two">
+            <h3>E-commerce platform</h3>
+            <p>
+                E-commerce platform with seamless shopping experience.
+            </p>
+        </div>
+
+    </div>
+</section>
+<!-- Testimonials -->
+<section id="testimonials" class="section">
+    <h2>What Our Clients Say</h2>
+
+    <div class="cards testimonials">
+        <div class="card testimonial-card">
+            <p>
+                “SP Infotech delivered an excellent website for our business.
+                Very professional and responsive team.”
+            </p>
+            <h4>— Rahul Sharma</h4>
+            <span>Startup Founder</span>
+        </div>
+
+        <div class="card testimonial-card">
+            <p>
+                “Amazing design and smooth user experience.
+                Highly recommended for web development.”
+            </p>
+            <h4>— Anjali Deshmukh</h4>
+            <span>Business Owner</span>
+        </div>
+
+        <div class="card testimonial-card">
+            <p>
+                “Their technical knowledge and support are outstanding.
+                Great experience working with them.”
+            </p>
+            <h4>— Amit Patil</h4>
+            <span>Product Manager</span>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact" class="section gray">
+    <h2>Contact Us</h2>
+
+    <p class="safe-text">
+        🔒 Your information is safe with us
+    </p>
+
+    <form id="contact-form" class="contact-form">
+
+        <label>Your Name</label>
+        <input type="text" name="from_name" placeholder="Enter your full name" required>
+
+        <label>Your Email</label>
+        <input type="email" name="from_email" placeholder="Enter your email address" required>
+
+        <label>Your Message</label>
+        <textarea name="message" placeholder="Type your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+
+<footer class="footer">
+
+    <div class="footer-content">
+        <div class="footer-box">
+            <h3>SP Infotech</h3>
+            <p>
+                We provide reliable web, app, UI/UX, and SEO solutions to help
+                businesses grow digitally with confidence.
+            </p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact Info</h3>
+            <p><strong>📍 Address:</strong> NaviMumbai, Maharashtra, India</p>
+            <p><strong>📧 Email:</strong> spinfotech@gmail.com</p>
+            <p><strong>📞 Phone:</strong> +91 80879 09478</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Our Services</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>App Development</li>
+                <li>UI / UX Design</li>
+                <li>SEO Services</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 SP Infotech. All rights reserved.
+    </div>
+
+</footer>
+
+<h2 id="typing"></h2>
+
+
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+    emailjs.init("DUDpfaSN3Sjj96-Em");
+
+    document.getElementById("contact-form").addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        const btn = this.querySelector("button");
+        btn.disabled = true;
+        btn.innerText = "Sending...";
+
+        emailjs.sendForm(
+            "service_1ve6h3d",
+            "template_5t9v6dk",
+            this
+        ).then(() => {
+
+            return emailjs.sendForm(
+                "service_1ve6h3d",
+                "template_cx25ck6",
+                this
+            );
+
+        }).then(() => {
+            alert("Message sent successfully ✅");
+            this.reset();
+            btn.disabled = false;
+            btn.innerText = "Send Message";
+        }).catch(error => {
+            alert("Failed ❌ " + error.text);
+            btn.disabled = false;
+            btn.innerText = "Send Message";
+        });
+    });
+</script>
+<script>
+    const toggle = document.getElementById("darkToggle");
+
+    toggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark");
+        toggle.textContent =
+            document.body.classList.contains("dark") ? "☀️" : "🌙";
+    });
+</script>
+<script>
+window.addEventListener("load", () => {
+    document.getElementById("loader").style.display = "none";
+});
+</script>
+<script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("navLinks");
+
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+    });
+</script>
+<script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
